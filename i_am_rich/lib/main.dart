@@ -7,7 +7,7 @@ void main() {
       home: Scaffold(
         //navbar
         appBar: AppBar(
-          title: Text('IAmRich'),
+          title: Text('I am Rich'),
           backgroundColor: Color(0xFFE1A140),
         ),
 
@@ -17,8 +17,7 @@ void main() {
         //body widgets
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://avatars.githubusercontent.com/u/5316779?v=4'),
+            image: AssetImage('images/diamond.png')
           ),
         ),
       ),
